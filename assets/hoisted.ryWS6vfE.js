@@ -1,0 +1,1 @@
+import"./hoisted.DxUsTP7S.js";const t=document.getElementById("contact-form"),e=document.getElementById("contact-success");t&&t.addEventListener("submit",c=>{c.preventDefault(),t.querySelectorAll("input, textarea").forEach(n=>n.value=""),e&&(e.classList.remove("hidden"),setTimeout(()=>e.classList.add("hidden"),5e3))});
